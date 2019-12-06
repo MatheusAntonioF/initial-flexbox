@@ -1,0 +1,45 @@
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+
+#app{
+  display: flex;
+
+}
+
+.box{
+  width: 150px;
+  height: 60px;
+  background: #f00;
+  margin: 5px;
+}
+
+.red{
+  order: 1;
+}
+.green{
+  background: #0F0;
+  order: 2;
+}
+.blue{
+  background: #00F;
+  order: 0;
+}
+
+  /*
+    Aceita o elemento ser maximizado para caber no container pai
+    flex-grow: 1;
+
+    Aceita o elemento ser reduzido para caber na tela
+    flex-shrink: 1;
+
+    Reduz a sintaxe do css acima
+    flex: 1;
+
+    Auxilia na quebra de linha
+    flex-wrap: wrap;
+
+    Alinha os elementos quando uma quebra de linha está presente
+    align-content: center;
+  */
